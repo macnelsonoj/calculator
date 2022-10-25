@@ -1,0 +1,53 @@
+body {
+  height: 95vh;
+  font-family: roboto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 80vh;
+  background-color: rgb(12, 17, 31);
+}
+.container {
+  background-color: rgb(18, 43, 56);
+  display: grid;
+  grid-template-columns: 70px 70px 70px 70px;
+  grid-template-rows: 60px 60px 60px 60px 60px 60px 60px;
+}
+.SPACE {
+  background-color: white;
+  align-items: center;
+  display: flex;
+  padding-left: 10px;
+  grid-column: span 4;
+  grid-row: span 2;
+}
+.fig {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid hsl(225, 38%, 16%);
+  color: white;
+}
+.fig1 {
+  background-color: rgb(255, 72, 72);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px solid rgb(30, 41, 71);
+  color: white;
+  grid-column: span 2;
+}
+.fig2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(30, 41, 71);
+  color: white;
+  grid-row: span 2;
+}
